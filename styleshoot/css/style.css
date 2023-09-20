@@ -440,3 +440,81 @@ h3{
     text-align: center;
     padding: 30px 0;
 }
+.footer p{
+    color: #777;
+}
+.footer h3{
+    color: #777;
+    margin-bottom: 20px;
+}
+.footer-col{
+    flex-basis: 25%;
+    padding: 0 2px;
+}
+.footer-col h4{
+    font-size: 600;
+    color: #777;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.footer-col ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.footer-col ul li{
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    text-decoration: none;
+    color: #777;
+}
+.footer-col ul li:hover{
+    color: #777;
+    cursor: pointer;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #777;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #777;
+    background-color: rgba(255,255,255,0.5);
+}
+@media(max-width: 767px){
+    .footer-col{
+        flex-basis: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .footer-col{
+        flex-basis: 100%;
+    }
+}
+.footer .copyrigth{
+    background-color: rgba(0,0,0,0.5);
+    padding: 5px 0;
+}
+.footer .copyrigth p{
+    margin: 0;
+    color: #777;
+}
+.footer .copyrigth p a{
+    color: #777;
+}
+.footer .copyrigth p a:hover{
+    color: #777;
+}
+
