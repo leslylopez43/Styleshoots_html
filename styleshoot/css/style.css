@@ -129,14 +129,27 @@ nav .fa{
         font-size: 20px;
     }
 }
-/* -------------Resources------------------ */
-p{
+/* -------------Travel------------------ */
+.travel p{
     color: #777;
     font-size: 14px;
     line-height: 22px;
     font-weight: 300;
     padding: 10px;
 }
+.travel{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.travel h1{
+    font-size: 600;
+    color: #777;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
 .row{
     display: flex;
     margin-top: 5%;
@@ -233,4 +246,197 @@ h3{
         flex-direction: column;
     }
 }
+
+/* --------------Newsleter----------------- */
+.newsleter{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.newsleter h1{
+    font-size: 600;
+    color: #777;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.newsleter p{
+    color: #777;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    padding: 10px;
+}
+.newsleter-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.newsleter-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.newsleter-col img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.newsleter-col h3{
+    text-align: center;
+    font-size: 600;
+    margin: 10px 0;
+}
+.newsleter-col p{
+    color: #777;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    padding: 10px;
+}
+.newsleter-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+@media(max-width: 700px){
+    .newsleter-row{
+        flex-direction: column;
+    }
+}
+
+
+
+/* --------------contact us----------------- */
+.contact{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.contact h1{
+    font-size: 600;
+    color: #777;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.contact p{
+    color: #777;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    padding: 10px;
+}
+.contact-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.contact-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.contact-col img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.contact-col h3{
+    text-align: center;
+    font-size: 600;
+    margin: 10px 0;
+}
+.contact-col p{
+    color: #777;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    padding: 10px;
+}
+.contact-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+@media(max-width: 700px){
+    .contact-row{
+        flex-direction: column;
+    }
+}
+
+/* --------------About us----------------- */
+.about{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.about h1{
+    font-size: 600;
+    color: #777;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.about p{
+    color: #777;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    padding: 10px;
+}
+.about-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.about-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.about-col img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.about-col h3{
+    text-align: center;
+    font-size: 600;
+    margin: 10px 0;
+}
+.about-col p{
+    color: #777;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    padding: 10px;
+}
+.about-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+@media(max-width: 700px){
+    .about-row{
+        flex-direction: column;
+    }
+}
+
+
+
 /* --------------Footer----------------- */
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
