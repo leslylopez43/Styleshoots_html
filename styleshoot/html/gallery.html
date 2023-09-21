@@ -30,6 +30,58 @@
     </div>
 
 
+    <section class="gallery">
+        <div class="photo">
+            <img src="photo1.jpg" alt="Photo 1">
+            <div class="caption">Photo 1</div>
+        </div>
+        <div class="photo">
+            <img src="photo2.jpg" alt="Photo 2">
+            <div class="caption">Photo 2</div>
+        </div>
+        <div class="photo">
+            <img src="photo3.jpg" alt="Photo 3">
+            <div class="caption">Photo 3</div>
+        </div>
+        <div class="photo">
+            <img src="photo4.jpg" alt="Photo 4">
+            <div class="caption">Photo 4</div>
+        </div>
+        <div class="photo">
+            <img src="photo5.jpg" alt="Photo 5">
+            <div class="caption">Photo 5</div>
+        </div>
+        <div class="photo">
+            <img src="photo6.jpg" alt="Photo 6">
+            <div class="caption">Photo 6</div>
+        </div>
+        <div class="photo">
+            <img src="photo7.jpg" alt="Photo 7">
+            <div class="caption">Photo 7</div>
+        </div>
+        <div class="photo">
+            <img src="photo8.jpg" alt="Photo 8">
+            <div class="caption">Photo 8</div>
+        </div>
+        <div class="photo">
+            <img src="photo9.jpg" alt="Photo 9">
+            <div class="caption">Photo 9</div>
+        </div>
+        <div class="photo">
+            <img src="photo10.jpg" alt="Photo 10">
+            <div class="caption">Photo 10</div>
+        </div>
+        <div class="photo">
+            <img src="photo11.jpg" alt="Photo 11">
+            <div class="caption">Photo 11</div>
+        </div>
+        <div class="photo">
+            <img src="photo12.jpg" alt="Photo 12">
+            <div class="caption">Photo 12</div>
+        </div>
+        
+
+    </section>
 
 
 
@@ -39,36 +91,142 @@
 
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styleshoot/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact Us</title>
+    <style>
+        /* CSS for the header section */
+        .header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+        }
+
+        /* CSS for the navigation bar */
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* CSS for the gallery section */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px;
+        }
+
+        /* CSS for individual photos */
+        .photo {
+            flex: 1 1 calc(33.33% - 10px);
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .photo img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 8px;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .photo:hover .caption {
+            opacity: 1;
+        }
+
+        /* CSS for the footer section */
+        .footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .icons {
+            margin-top: 10px;
+        }
+
+        .icons a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 24px;
+            margin: 0 10px;
+        }
+
+        /* Additional styling for the footer */
+        .footer h4 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .footer p {
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <section class="header">
+        <div class="nav">
+            <a href="index.html"><img src="/styleshoot/img/Logo.webp" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="newsletter.html">NEWSLETTER</a></li>
+                    <li><a href="contactus.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <!-- Photo Gallery Content Here -->
+    </section>
 
 
 
-<section class="footer">
-    <h4> Follow Us on Social Media:</h4>
-    <div class="icons">
-        <a href="https://www.facebook.com/your-facebook-page" target="_blank">
-            <i class="fa fa-facebook"></i>
-        </a>
-        <a href="https://www.instagram.com/your-instagram-account" target="_blank">
-            <i class="fa fa-instagram"></i>
-        </a>
-        <a href="https://twitter.com/your-twitter-account" target="_blank">
-            <i class="fa fa-twitter"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">
-            <i class="fa fa-linkedin"></i>
-        </a>
-        <a href="https://www.youtube.com/your-youtube-channel" target="_blank">
-            <i class="fa fa-youtube-play"></i>
-        </a>
-        <a href="https://www.google.com/maps?q=your-location" target="_blank">
-            <i class="fa fa-map"></i>
-        </a>
-    </div>
+
+
+
     
-    <p>"© 2023 Lesly Guatemala Photostyle.</p>
-
-</section>
-
-
+    <section class="footer">
+        <h4>Follow Us on Social Media:</h4>
+        <div class="icons">
+            <a href="https://www.facebook.com/your-facebook-page" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/your-instagram-account" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://twitter.com/your-twitter-account" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/your-youtube-channel" target="_blank"><i class="fa fa-youtube-play"></i></a>
+            <a href="https://www.google.com/maps?q=your-location" target="_blank"><i class="fa fa-map"></i></a>
+        </div>
+        <p>"© 2023 Lesly Guatemala Photostyle.</p>
+    </section>
 </body>
 </html>
