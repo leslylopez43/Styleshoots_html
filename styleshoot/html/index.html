@@ -22,10 +22,10 @@
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="#about">ABOUT</a></li>
                     <li><a href="popular.html">PUPULAR</a></li>
                     <li><a href="newsleter.html">NEWSLETER</a></li>
-                    <li><a href="contactus.html">CONTACT US</a></li>
+                    <li><a href="#contactus">CONTACT US</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -73,7 +73,7 @@
                 
         </div>
         <div class="row">
-            <div class="travel-col">
+            <div class="travel-col" id="about">
                 <img src="/styleshoot/img/kate.webp" alt="">
                 <div class="visit">
                     <p>Guatemala's markets are a sensory delight, where you can experience the vibrant 
@@ -81,12 +81,12 @@
                         Chichicastenango Market is famous for its textiles, crafts, and unique atmosphere. 
                         Antigua's markets offer a blend of local and international goods.</p>
                     <div>
-                        <a href="#" class="hero-btn">Colorful Markets:</a>
+                        <a href="about.html" class="hero-btn">Colorful Markets:</a>
                        </div>
                 </div>
                 
         </div>
-        <div class="row">
+        <div class="row"> 
             <div class="travel-col">
                 <img src="/styleshoot/img/zaculeu.jpg" alt="zaculeu">
                 <div class="visit">
@@ -94,7 +94,7 @@
                         colorful buildings, and a wealth of cultural attractions. The city 
                         is surrounded by volcanoes and is renowned for its preserved Baroque-influenced architecture.</p>
                     <div>
-                        <a href="#" class="hero-btn">Colonial Cities:</a>
+                        <a href="#" class="hero-btn" >Colonial Cities:</a>
                        </div>
                     </div>
                 </div>
@@ -221,11 +221,11 @@
           
           
     
-    <section class="newsleter">
+    <section class="newsleter" class="#aboutus">
         <h1>Stay Connected to Guatemala's Wonders:</h1>
         <p>Subscribing to a newsletter about Guatemala is like embarking 
             on a journey of discovery and exploration without leaving your inbox.</p>
-        <form action="">
+        <form action="onclick">
             <input type="email">
             <input type="submit" value="Subscribe">
         </form>
@@ -233,10 +233,14 @@
 
     </section>
 
-    <section class="Get In Touch With Us Now">
-        <h1>Get In Touch With Us Now.</h1>
+    <section class="Get In Touch With Us Now" id="contactus">
+        <div >
+            <a href="contactus.html"" class="hero-btn" id="color1">Get In Touch With Us Now.</a>
+            
         <p>Have a fascinating Guatemala travel story, tips, or photos you'd like to share with our community?
-             We're all ears! Contact our editorial team at.</p>
+            We're all ears! Contact our editorial team at.</p>
+        <span> Visit Us To Know More</span>
+        </div>
         <div class="row">
             <div class="contactus-col">
                 <div>
@@ -247,7 +251,7 @@
                     </span>
                 </div>
                 <div>
-                    <i class="fa fa-phone"></i>
+                    <i class="fa fa-phone" </i>
                     <span>
                         Share Your Stories.
                         Newsletter Feedback.
