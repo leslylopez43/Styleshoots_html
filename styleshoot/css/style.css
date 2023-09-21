@@ -545,3 +545,90 @@ iframe{
     color: #777;
 }
 
+/* Container Styles */
+.contact-subscribe-container {
+    text-align: center;
+}
+
+/* Form Styles */
+.contactus-col, .subscribe-col {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form, .subscribe-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label,.subscribe-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input,.subscribe-form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea,.subscribe-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.contact-form button,.subscribe-form button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact-form button:hover,.subscribe-form button:hover {
+    background-color: #000;
+}
+
+.subscribe-form input {
+    width: 80%;
+}
+
+.subscribe-form button {
+    width: 20%;
+}
+
+.subscribe-form button:hover {
+    background-color: #000;
+}
+
+.contact-subscribe-container {
+    text-align: center;
+}
+
+.contact-subscribe-container input {
+    width: 80%;
+}
+
+.contact-subscribe-container button {
+    width: 20%;
+}
+
+.contact-subscribe-container button:hover {
+    background-color: #000;
+}   
