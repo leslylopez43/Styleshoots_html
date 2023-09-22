@@ -16,9 +16,12 @@ nav{
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
+
 }
 nav img{
     width: 150px;
+    position: fixed;
+
 }
 .nav-links{
     flex: 1;
@@ -31,7 +34,7 @@ nav img{
     position: relative;
 }
 .nav-links ul li a{
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 13px;
 }
@@ -668,13 +671,45 @@ iframe{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(193, 205, 215);
 }
+ .forum-row2 {
+        display: flex; /* Make the divs inside it display in a row */
+        justify-content: space-between; /* Add space between the divs */
+        align-items: center; /* Align the items vertically in the center */
+        margin: 20px 0; /* Add some margin for spacing */
+    }
+
+    .forum-col2 {
+        flex: 0 0 calc(30% - 10px); /* Set the width for each column */
+        background-color: #f5f5f5; /* Add background color */
+        padding: 20px; /* Add padding for spacing */
+        box-sizing: border-box; /* Include padding in the width */
+        text-align: center; /* Center text horizontally */
+    }
+
+    /* Additional styling for the content inside the columns */
+    .forum-col2 img {
+        max-width: 100%; /* Ensure images don't exceed the column width */
+    }
+
+    .forum-col2 p {
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 10px 0;
+    }
+
+    .forum-col2 h3 {
+        font-size: 16px;
+    }
+
 .photo2{
     width: 100%;
-    height: 100%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: beige;
 }
 .photo3{
     width: 100%;
@@ -683,4 +718,12 @@ iframe{
     justify-content: center;
     align-items: center;
 }
-
+#photo1 #photo2 #photo3 #photo4{
+    min-height: 100vh;
+    width: 50%;
+    background-color: rgb(114, 166, 212);
+    background-image: url(../img/background.webp), linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
