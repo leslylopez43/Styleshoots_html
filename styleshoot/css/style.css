@@ -244,7 +244,7 @@ nav .fa{
     }
 }
 
-/* --------------Gallery----------------- */
+/* --------------Gallery Index Main page----------------- */
 header2{
     min-height: 100vh;
     width: 100%;
@@ -255,7 +255,7 @@ header2{
 }
 .gallery-col{
     flex-basis: 31%;
-    background: #fff3f3;
+    background: #dde4f4;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -268,6 +268,175 @@ header2{
     border-radius: 10px;
     margin-bottom: 10px;
 }
+/* styles.css */
+/* --------------Gallery----------------- */
+.destination {
+    background-color: #f5f5f5; /* Background color for the whole section */
+    padding: 20px; /* Padding to create space around the content */
+    border: 1px solid #ccc; /* Border for the section */
+    border-radius: 100px; /* Rounded corners for a card-like appearance */
+    text-align: center; /* Center-align the content */
+    max-width: 500px; /* Limit the width of the section */
+    margin: 0 auto; /* Center the section horizontally on the page */
+    margin-top: 200px;
+}
+
+.destination h1 {
+    color: rgba(19, 122, 232, 0.597); /* Text color for the heading */
+    font-size: 204px; /* Font size for the heading */
+    margin-top: 80; /* Remove default top margin for the heading */
+}
+
+.destination .location {
+    color: #777; /* Text color for the location */
+    font-style: italic; /* Make the location text italic */
+    font-size: 50px;
+}
+
+.destination .description {
+    color: #444; /* Text color for the description */
+    margin-top: 10px; /* Add space between the location and description */
+    font-size: 20px;
+}
+
+
+
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Style for each photo item */
+.photo {
+    flex: 1 1 calc(33.33% - 10px); /* Adjust the width as needed */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+/* Style for the image inside each photo item */
+.photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Style for the caption text */
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 8px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Show caption on hover */
+.photo:hover .caption {
+    opacity: 1;
+}
+.tradicional_food{
+    flex-basis: 301%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 100px 12px;
+    font-size: 100px;
+    
+}
+.food_left{    
+}
+
+/* //////////////////photo//////////// */
+.photo1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 237, 239);
+    padding: 0px;
+    margin: 0px;
+}
+ .forum-row2 {
+        display: flex; /* Make the divs inside it display in a row */
+        justify-content: space-between; /* Add space between the divs */
+        align-items: center; /* Align the items vertically in the center */
+        margin: 20px 0; /* Add some margin for spacing */
+    }
+    /* Style for each photo item */
+    .space {
+        margin-top: 400px; /* You can adjust the value to control the amount of space */
+        margin-bottom: 300px;
+        background-color: #e3d9de; /* Adding a background color to visualize the space */
+        padding: 30px; /* Optional padding to add some space within the div */
+        color: #171c1c63;
+    }
+    .title {
+        text-align: center;
+        font-size: 80px;
+        margin-bottom: 20px;
+    }
+  
+
+    /* Additional styling for the content inside the columns */
+    .forum-col2 img {
+        width: 100%; /* Set the width to 100% to make the images as wide as their parent container */
+        max-width: none; /* Remove the max-width restriction */
+        border-radius: 100px;
+    }
+    
+
+    .forum-col2 p {
+        font-size: 20px;
+        line-height: 1.5;
+        margin: 10px 0;
+    }
+
+    .forum-col2 h3 {
+        font-size: 16px;
+    }
+
+
+.photo3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+gallery-col{
+    flex-basis: 31%;
+    background: #dde4f4;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.gallery-col img {
+    width: 50%;
+    height: 200px; /* Set a fixed height for all images */
+    object-fit: cover; /* Maintain aspect ratio and crop if necessary */
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
   
 /* --------------Newsleter----------------- */
 .newsleter{
@@ -620,110 +789,5 @@ iframe{
     background-color: rgb(51, 51, 51);
 }
 
-/* ////////////////////gallery//////// */
- /* Basic styles for the gallery */
- .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
 
-/* Style for each photo item */
-.photo {
-    flex: 1 1 calc(33.33% - 10px); /* Adjust the width as needed */
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: relative;
-    cursor: pointer;
-}
 
-/* Style for the image inside each photo item */
-.photo img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-/* Style for the caption text */
-.caption {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: 8px;
-    text-align: center;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-/* Show caption on hover */
-.photo:hover .caption {
-    opacity: 1;
-}
-
-/* //////////////////photo//////////// */
-.photo1{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(193, 205, 215);
-}
- .forum-row2 {
-        display: flex; /* Make the divs inside it display in a row */
-        justify-content: space-between; /* Add space between the divs */
-        align-items: center; /* Align the items vertically in the center */
-        margin: 20px 0; /* Add some margin for spacing */
-    }
-
-    .forum-col2 {
-        flex: 0 0 calc(30% - 10px); /* Set the width for each column */
-        background-color: #f5f5f5; /* Add background color */
-        padding: 20px; /* Add padding for spacing */
-        box-sizing: border-box; /* Include padding in the width */
-        text-align: center; /* Center text horizontally */
-    }
-
-    /* Additional styling for the content inside the columns */
-    .forum-col2 img {
-        max-width: 100%; /* Ensure images don't exceed the column width */
-    }
-
-    .forum-col2 p {
-        font-size: 14px;
-        line-height: 1.5;
-        margin: 10px 0;
-    }
-
-    .forum-col2 h3 {
-        font-size: 16px;
-    }
-
-.photo2{
-    width: 100%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: beige;
-}
-.photo3{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#photo1 #photo2 #photo3 #photo4{
-    min-height: 100vh;
-    width: 50%;
-    background-color: rgb(114, 166, 212);
-    background-image: url(../img/background.webp), linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
