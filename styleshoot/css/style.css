@@ -5,46 +5,47 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: url(../img/background.webp), linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
+    background-image: url(../img/background.webp), linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7));
     background-position: center;
     background-size: cover;
     position: relative;
 }
 
-nav{
+nav {
     display: flex;
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
-
+    position: fixed; /* Change 'sticky' to 'fixed' */
+    top: 0; /* Add this to stick to the top */
+    width: 90%; /* Add this to span the full width */
+    z-index: 2; /* Ensure the navbar is above other content */
 }
-nav img{
+
+nav img {
     width: 150px;
-    position: fixed;
-
+    position: relative; /* Change 'fixed' to 'relative' */
 }
-.nav-links{
+
+.nav-links {
     flex: 1;
     text-align: right;
 }
-.nav-links ul li{
+
+.nav-links ul li {
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
 }
-.nav-links ul li a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 13px;
-}
-.nav-links ul li a{
+
+.nav-links ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 13px;
 }
-.nav-links ul li::after{
+
+.nav-links ul li::after {
     content: '';
     width: 0%;
     height: 2px;
@@ -53,9 +54,11 @@ nav img{
     margin: auto;
     transition: 0.5s;
 }
-.nav-links ul li:hover::after{
+
+.nav-links ul li:hover::after {
     width: 100%;
 }
+
 .text-box{
     width: 90%;
     color: #fff;
@@ -265,6 +268,12 @@ nav .fa{
 /* styles.css */
 /* --------------Gallery----------------- */
 
+
+.gallery-nav {
+    background-color:#222;
+}
+
+
 .header1{
     min-height: 100vh;
     width: 100%;
@@ -286,7 +295,7 @@ nav .fa{
 
 .destination h1 {
     color: rgba(19, 122, 232, 0.597); /* Text color for the heading */
-    font-size: 204px; /* Font size for the heading */
+    font-size: 150px; /* Font size for the heading */
     margin-top: 80; /* Remove default top margin for the heading */
 }
 
@@ -301,9 +310,6 @@ nav .fa{
     margin-top: 10px; /* Add space between the location and description */
     font-size: 20px;
 }
-
-
-
 
 
 .gallery {
@@ -347,15 +353,14 @@ nav .fa{
 .photo:hover .caption {
     opacity: 1;
 }
-.tradicional_food{
-    flex-basis: 301%;
+gallery .tradicional_food{
+    flex-basis: 251%;
     border-radius: 10px;
     margin-bottom: 5%;
-    padding: 100px 12px;
+    padding: 80px 6px;
     font-size: 100px;
     
 }
-
 
 /* //////////////////photo//////////// */
 .photo1{
@@ -421,6 +426,7 @@ nav .fa{
     text-align: center;
     padding-top: 100px;
 }
+
 gallery-col{
     flex-basis: 31%;
     background: #dde4f4;
