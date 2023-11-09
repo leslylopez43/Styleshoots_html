@@ -9,6 +9,8 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    z-index: -5;
+    
 }
 
 nav {
